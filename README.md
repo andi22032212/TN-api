@@ -1,4 +1,4 @@
-# TN API [![npm version] 
+# TN API 
 
 TN Platform core features and Waves API library for both Node.js and browser.
 
@@ -7,7 +7,7 @@ The latest and most actual version of this documentation [is hosted on GitHub](h
 ## Installation
 
 ```
-npm install @TN/TN-api --save
+npm install https://github.com/andi22032212/TN-api.git
 ```
 
 In Node.js:
