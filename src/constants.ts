@@ -3,10 +3,10 @@ import { IWavesBasicConfig, IWavesConfig } from '../interfaces';
 import { TRANSACTION_TYPE, TRANSACTION_TYPE_NUMBER, TRANSACTION_TYPE_VERSION } from '@waves/waves-signature-generator';
 
 
-export const WAVES = 'WAVES';
+export const WAVES = 'TN';
 
-export const MAINNET_BYTE: number = 'W'.charCodeAt(0);
-export const TESTNET_BYTE: number = 'T'.charCodeAt(0);
+export const MAINNET_BYTE: number = 'L'.charCodeAt(0);
+export const TESTNET_BYTE: number = 'l'.charCodeAt(0);
 
 export const INITIAL_NONCE = 0;
 
@@ -55,14 +55,14 @@ export const SPONSORSHIP_TX_NAME = TRANSACTION_TYPE.SPONSORSHIP;
 export const PRIVATE_KEY_LENGTH = 32;
 export const PUBLIC_KEY_LENGTH = 32;
 
-export const MINIMUM_FEE = 100000;
-export const MINIMUM_ISSUE_FEE = 100000000;
-export const MINIMUM_MATCHER_FEE = 300000;
-export const MINIMUM_DATA_FEE_PER_KB = 100000;
+export const MINIMUM_FEE = 2000000;
+export const MINIMUM_ISSUE_FEE = 100000000000;
+export const MINIMUM_MATCHER_FEE = 4000000;
+export const MINIMUM_DATA_FEE_PER_KB = 2000000;
 
 export const TRANSFER_ATTACHMENT_BYTE_LIMIT = 140;
 
-export const DEFAULT_MIN_SEED_LENGTH = 25;
+export const DEFAULT_MIN_SEED_LENGTH = 15;
 
 export const DEFAULT_ORDER_EXPIRATION_DAYS = 20;
 
@@ -77,25 +77,25 @@ export const DEFAULT_BASIC_CONFIG: IWavesBasicConfig = {
 export const DEFAULT_MAINNET_CONFIG: IWavesConfig = {
     ...DEFAULT_BASIC_CONFIG,
     networkByte: MAINNET_BYTE,
-    nodeAddress: 'https://nodes.wavesplatform.com',
-    matcherAddress: 'https://matcher.wavesplatform.com'
+    nodeAddress: 'https://privatenode.blackturtle.eu',
+    matcherAddress: 'https://privatematcher.blackturtle.eu'
 };
 
 export const DEFAULT_TESTNET_CONFIG: IWavesConfig = {
     ...DEFAULT_BASIC_CONFIG,
     networkByte: TESTNET_BYTE,
-    nodeAddress: 'https://testnet1.wavesnodes.com',
-    matcherAddress: 'https://testnet1.wavesnodes.com/matcher'
+    nodeAddress: 'https://apitnetworktest.blackturtle.eu',
+    matcherAddress: 'https://tntestnetmatcher.blackturtle.eu'
 };
 
 export const WAVES_V1_ISSUE_TX = {
-    assetId: WAVES,
+    assetId: TN,
     decimals: 8,
     description: '',
     fee: 0,
     height: 0,
-    id: WAVES,
-    name: 'Waves',
+    id: TN,
+    name: 'TN',
     quantity: 100000000 * Math.pow(10, 8),
     reissuable: false,
     sender: WAVES,
