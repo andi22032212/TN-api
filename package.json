@@ -19,9 +19,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wavesplatform/waves-api.git"
+    "url": "https://github.com/andi22032212/TN-api.git"
   },
-  "main": "dist/waves-api.min.js",
+  "main": "dist/TN-api.min.js",
   "types": "raw/src/WavesAPI.d.ts",
   "devDependencies": {
     "@types/chai": "^4.0.4",
