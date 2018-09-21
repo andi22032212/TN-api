@@ -1,10 +1,10 @@
 {
-  "name": "@waves/waves-api",
+  "name": "@TN/TN-api",
   "version": "1.4.0",
-  "description": "Waves client-side API library",
+  "description": "TN client-side API library",
   "keywords": [
     "cryptocurrency",
-    "waves",
+    "TN",
     "api",
     "seed",
     "transactions",
