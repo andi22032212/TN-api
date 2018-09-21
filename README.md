@@ -1,28 +1,28 @@
-# Waves API [![npm version](https://badge.fury.io/js/%40waves%2Fwaves-api.svg)](https://www.npmjs.com/package/@waves/waves-api) [![downloads/month](https://img.shields.io/npm/dm/%40waves%2Fwaves-api.svg)](https://www.npmjs.com/package/@waves/waves-api)
+# TN API [![npm version] 
 
-Waves Platform core features and Waves API library for both Node.js and browser.
+TN Platform core features and Waves API library for both Node.js and browser.
 
-The latest and most actual version of this documentation [is hosted on GitHub](https://github.com/wavesplatform/waves-api/blob/master/README.md).
+The latest and most actual version of this documentation [is hosted on GitHub](https://github.com/andi22032212/TN-api/blob/master/README.md).
 
 ## Installation
 
 ```
-npm install @waves/waves-api --save
+npm install @TN/TN-api --save
 ```
 
 In Node.js:
 
 ```
-const WavesAPI = require('@waves/waves-api');
+const WavesAPI = require('@TN/TN-api');
 ```
 
 In browser:
 
 ```
-<script src="./node_modules/@waves/waves-api/dist/waves-api.min.js"></script>
+<script src="./node_modules/@TN/TN-api/dist/TN-api.min.js"></script>
 ```
 
-You can use `@waves/waves-api` even within Web Workers.
+You can use `@TN/TN-api` even within Web Workers.
 
 ## Usage
 
